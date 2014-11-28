@@ -1,0 +1,10 @@
+apps:
+  oneapp:
+    image: test_daemon
+    links:
+      - dep
+environments:
+  development:
+    dependencies:
+      dep:
+        image: test_daemon
