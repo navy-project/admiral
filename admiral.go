@@ -1,10 +1,10 @@
 package main
 
 import (
-  "bitbucket.org/navy-project/admiral/app"
+	"github.com/navy-project/admiral/app"
 )
 
 func main() {
-  cli := app.BuildApp()
-  cli.Execute()
+	cli := app.BuildApp()
+	cli.Execute()
 }
